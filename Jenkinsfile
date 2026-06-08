@@ -4,7 +4,7 @@ stages {
 stage('Checkout') {
 steps {
 git(
-url: 'GITHUB URL',
+url: 'https://github.com/arathyac/todo-pipeline.git',
 branch: 'main',
 credentialsId: 'github-pat'
 )
